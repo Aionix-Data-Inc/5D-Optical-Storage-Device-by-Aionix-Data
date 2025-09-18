@@ -1,0 +1,9 @@
+# Core dependencies
+# No required dependencies - the library works with Python standard library
+
+# Optional dependencies for S3 support
+boto3>=1.26.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
