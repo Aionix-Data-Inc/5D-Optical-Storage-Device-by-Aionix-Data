@@ -1,0 +1,43 @@
+ruleset_name: writer-high-reliability-v1
+description: Prioritize data integrity over speed
+version: "1.0.0"
+rules:
+  - id: ECC_PROFILE
+    action: set
+    value: LDPC_3_5 + RS_255_223
+  - id: WRITE_VERIFY
+    action: enable
+    value: full_pass
+  - id: THERMAL_SCHEDULER
+    action: mode
+    value: conservative
+applies_to:
+  media: "Aionix-Glass-Gen2"
+  layers: "all"
+  env: "prod"
+
+TAMPER_TEST_LINE
+
+RAPID_MODIFY_2025-09-23T08:15:28.027690
+
+RAPID_MODIFY_2025-09-23T08:15:29.027924
+
+RAPID_MODIFY_2025-09-23T08:15:30.028181
+
+RAPID_MODIFY_2025-09-23T08:15:31.028450
+
+RAPID_MODIFY_2025-09-24T07:22:40.545630
+
+RAPID_MODIFY_2025-09-24T07:22:41.545870
+
+RAPID_MODIFY_2025-09-24T07:22:42.546850
+
+RAPID_MODIFY_2025-09-24T07:22:43.547068
+
+RAPID_MODIFY_2025-09-24T07:25:27.447864
+
+RAPID_MODIFY_2025-09-24T07:25:28.448110
+
+RAPID_MODIFY_2025-09-24T07:25:29.448381
+
+RAPID_MODIFY_2025-09-24T07:25:30.448662

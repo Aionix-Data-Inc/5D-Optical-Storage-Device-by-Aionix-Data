@@ -1,0 +1,9 @@
+
+--- Run at 2025-09-20T05:22:19.656847 ---
+Command: python3 main.pypython3 aionix_sim.pypython3 aionix_sim.py
+Return code: 2
+STDOUT:
+
+STDERR:
+python3: can't open file '/workspaces/5D-Optical-Storage-Device-by-Aionix-Data/main.pypython3': [Errno 2] No such file or directory
+

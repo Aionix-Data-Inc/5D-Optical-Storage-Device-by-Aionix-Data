@@ -1,0 +1,535 @@
+
+--- Normal Simulation Run at 2025-09-23T08:10:38.188452 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 0
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Test Simulation Run at 2025-09-23T08:10:38.307466 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin --tamper aionix_audit.log
+Return code: 0
+STDOUT:
+Simulated external tampering in aionix_audit.log
+
+STDERR:
+
+
+--- Normal Simulation Run at 2025-09-23T08:11:38.535999 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 0
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Audit Log Simulation Run at 2025-09-23T08:11:38.648369 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin --tamper aionix_audit.log
+Return code: 0
+STDOUT:
+Simulated external tampering in aionix_audit.log
+
+STDERR:
+
+
+--- Tamper Key Store Simulation Run at 2025-09-23T08:11:38.751276 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin --tamper aionix_keys.json
+Return code: 0
+STDOUT:
+Simulated external tampering in aionix_keys.json
+
+STDERR:
+
+
+--- Tamper Data File Simulation Run at 2025-09-23T08:11:38.860653 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin --tamper sample_data.txt
+Return code: 0
+STDOUT:
+Simulated external tampering in sample_data.txt
+
+STDERR:
+
+
+--- Tamper Policy File Simulation Run at 2025-09-23T08:11:38.979359 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin --tamper sample_policy.yaml
+Return code: 0
+STDOUT:
+Simulated external tampering in sample_policy.yaml
+
+STDERR:
+
+
+--- Normal Simulation Run at 2025-09-23T08:15:14.856429 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete aionix_audit.log Simulation Run at 2025-09-23T08:15:14.951776 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Permission aionix_audit.log Simulation Run at 2025-09-23T08:15:15.064547 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify aionix_audit.log Simulation Run at 2025-09-23T08:15:19.166218 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete aionix_keys.json Simulation Run at 2025-09-23T08:15:19.253845 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Permission aionix_keys.json Simulation Run at 2025-09-23T08:15:19.350076 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify aionix_keys.json Simulation Run at 2025-09-23T08:15:23.437940 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete sample_data.txt Simulation Run at 2025-09-23T08:15:23.525403 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Data file not found: sample_data.txt
+
+STDERR:
+
+
+--- Tamper Permission sample_data.txt Simulation Run at 2025-09-23T08:15:23.614614 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify sample_data.txt Simulation Run at 2025-09-23T08:15:27.719754 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete sample_policy.yaml Simulation Run at 2025-09-23T08:15:27.806405 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Policy file not found: sample_policy.yaml
+
+STDERR:
+
+
+--- Tamper Permission sample_policy.yaml Simulation Run at 2025-09-23T08:15:27.935986 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify sample_policy.yaml Simulation Run at 2025-09-23T08:15:32.028722 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Normal Simulation Run at 2025-09-23T08:20:49.961415 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete aionix_audit.log Simulation Run at 2025-09-23T08:20:50.668596 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Permission aionix_audit.log Simulation Run at 2025-09-23T08:20:50.865486 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify aionix_audit.log Simulation Run at 2025-09-23T08:20:55.082252 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete aionix_keys.json Simulation Run at 2025-09-23T08:20:55.275171 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Permission aionix_keys.json Simulation Run at 2025-09-23T08:20:55.463444 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify aionix_keys.json Simulation Run at 2025-09-23T08:20:59.687769 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete sample_data.txt Simulation Run at 2025-09-23T08:20:59.907057 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Data file not found: sample_data.txt
+
+STDERR:
+
+
+--- Tamper Permission sample_data.txt Simulation Run at 2025-09-23T08:21:00.103672 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify sample_data.txt Simulation Run at 2025-09-23T08:21:04.301527 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete sample_policy.yaml Simulation Run at 2025-09-23T08:21:04.494527 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Policy file not found: sample_policy.yaml
+
+STDERR:
+
+
+--- Tamper Permission sample_policy.yaml Simulation Run at 2025-09-23T08:21:04.714760 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify sample_policy.yaml Simulation Run at 2025-09-23T08:21:08.920515 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Normal Simulation Run at 2025-09-24T07:22:24.072117 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete aionix_audit.log Simulation Run at 2025-09-24T07:22:26.314707 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Permission aionix_audit.log Simulation Run at 2025-09-24T07:22:26.505815 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify aionix_audit.log Simulation Run at 2025-09-24T07:22:30.702263 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete aionix_keys.json Simulation Run at 2025-09-24T07:22:30.883835 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Permission aionix_keys.json Simulation Run at 2025-09-24T07:22:31.103361 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify aionix_keys.json Simulation Run at 2025-09-24T07:22:35.373299 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete sample_data.txt Simulation Run at 2025-09-24T07:22:35.562186 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Data file not found: sample_data.txt
+
+STDERR:
+
+
+--- Tamper Permission sample_data.txt Simulation Run at 2025-09-24T07:22:35.758741 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify sample_data.txt Simulation Run at 2025-09-24T07:22:39.951575 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete sample_policy.yaml Simulation Run at 2025-09-24T07:22:40.149855 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Policy file not found: sample_policy.yaml
+
+STDERR:
+
+
+--- Tamper Permission sample_policy.yaml Simulation Run at 2025-09-24T07:22:40.337050 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify sample_policy.yaml Simulation Run at 2025-09-24T07:22:44.547369 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Normal Simulation Run at 2025-09-24T07:25:12.478409 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete aionix_audit.log Simulation Run at 2025-09-24T07:25:12.659982 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Permission aionix_audit.log Simulation Run at 2025-09-24T07:25:12.876613 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify aionix_audit.log Simulation Run at 2025-09-24T07:25:17.083343 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete aionix_keys.json Simulation Run at 2025-09-24T07:25:17.328303 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Permission aionix_keys.json Simulation Run at 2025-09-24T07:25:17.524164 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify aionix_keys.json Simulation Run at 2025-09-24T07:25:21.783460 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete sample_data.txt Simulation Run at 2025-09-24T07:25:22.059847 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Data file not found: sample_data.txt
+
+STDERR:
+
+
+--- Tamper Permission sample_data.txt Simulation Run at 2025-09-24T07:25:22.418277 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify sample_data.txt Simulation Run at 2025-09-24T07:25:26.809326 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Delete sample_policy.yaml Simulation Run at 2025-09-24T07:25:26.997217 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Policy file not found: sample_policy.yaml
+
+STDERR:
+
+
+--- Tamper Permission sample_policy.yaml Simulation Run at 2025-09-24T07:25:27.212744 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rapid Modify sample_policy.yaml Simulation Run at 2025-09-24T07:25:31.449118 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Forbidden Keyword sample_data.txt Simulation Run at 2025-09-24T07:25:31.665110 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Forbidden Keyword sample_policy.yaml Simulation Run at 2025-09-24T07:25:31.860587 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rename aionix_audit.log Simulation Run at 2025-09-24T07:25:32.067954 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rename aionix_keys.json Simulation Run at 2025-09-24T07:25:32.287371 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+
+STDERR:
+
+
+--- Tamper Rename sample_data.txt Simulation Run at 2025-09-24T07:25:32.525728 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Data file not found: sample_data.txt
+
+STDERR:
+
+
+--- Tamper Rename sample_policy.yaml Simulation Run at 2025-09-24T07:25:32.728834 ---
+Command: python3 aionix_sim.py sample_data.txt sample_policy.yaml alice writer,reader,admin
+Return code: 1
+STDOUT:
+Policy file not found: sample_policy.yaml
+
+STDERR:
+
