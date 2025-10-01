@@ -9,7 +9,10 @@ echo "==============================================="
 
 # Check Python version
 python_version=$(python3 --version 2>&1 | grep -o '[0-9]\+\.[0-9]\+')
-if [[ $(echo "$python_version >= 3.8" | bc -l) -eq 1 ]]; then
+major_version=$(echo $python_version | cut -d. -f1)
+minor_version=$(echo $python_version | cut -d. -f2)
+
+if [[ $major_version -gt 3 ]] || [[ $major_version -eq 3 && $minor_version -ge 8 ]]; then
     echo "✅ Python $python_version detected (>=3.8 required)"
 else
     echo "❌ Python 3.8+ required, found $python_version"
