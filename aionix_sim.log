@@ -834,3 +834,228 @@ could not find expected ':'
   in "sample_policy.yaml", line 19, column 1
 could not find expected ':'
   in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:19:46,719 Loaded data file: sample_data.txt (678 bytes)
+2025-11-19 17:19:46,721 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:19:46,914 Loaded data file: sample_data.txt (678 bytes)
+2025-11-19 17:19:46,915 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:19:47,138 Loaded data file: sample_data.txt (678 bytes)
+2025-11-19 17:19:47,140 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:19:51,327 Loaded data file: sample_data.txt (678 bytes)
+2025-11-19 17:19:51,329 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:19:51,543 Loaded data file: sample_data.txt (678 bytes)
+2025-11-19 17:19:51,545 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:19:51,722 Loaded data file: sample_data.txt (678 bytes)
+2025-11-19 17:19:51,724 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:19:55,890 Loaded data file: sample_data.txt (678 bytes)
+2025-11-19 17:19:55,892 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:19:56,292 Loaded data file: sample_data.txt (678 bytes)
+2025-11-19 17:19:56,294 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:20:00,469 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 17:20:00,470 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:20:00,870 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 17:20:00,872 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:20:05,035 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 17:20:05,037 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:20:05,219 Loaded data file: sample_data.txt (853 bytes)
+2025-11-19 17:20:05,221 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:20:05,403 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 17:20:05,405 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:20:05,630 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 17:20:05,631 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 17:20:05,836 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 17:20:05,840 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:40,197 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 18:22:40,199 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:40,379 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 18:22:40,380 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:40,553 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 18:22:40,555 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:44,736 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 18:22:44,738 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:45,016 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 18:22:45,018 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:45,253 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 18:22:45,256 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:49,443 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 18:22:49,445 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:49,775 Loaded data file: sample_data.txt (842 bytes)
+2025-11-19 18:22:49,777 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:53,958 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-19 18:22:53,960 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:54,319 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-19 18:22:54,321 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:58,523 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-19 18:22:58,525 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:58,700 Loaded data file: sample_data.txt (1017 bytes)
+2025-11-19 18:22:58,701 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:58,874 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-19 18:22:58,875 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:59,053 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-19 18:22:59,054 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-19 18:22:59,236 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-19 18:22:59,238 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:18,599 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-21 07:59:18,647 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:18,827 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-21 07:59:18,829 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:19,002 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-21 07:59:19,003 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:23,168 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-21 07:59:23,169 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:23,358 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-21 07:59:23,361 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:23,540 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-21 07:59:23,542 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:27,708 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-21 07:59:27,710 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:28,070 Loaded data file: sample_data.txt (1006 bytes)
+2025-11-21 07:59:28,072 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:32,268 Loaded data file: sample_data.txt (1170 bytes)
+2025-11-21 07:59:32,270 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:32,668 Loaded data file: sample_data.txt (1170 bytes)
+2025-11-21 07:59:32,669 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:36,835 Loaded data file: sample_data.txt (1170 bytes)
+2025-11-21 07:59:36,836 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:37,024 Loaded data file: sample_data.txt (1181 bytes)
+2025-11-21 07:59:37,027 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:37,274 Loaded data file: sample_data.txt (1170 bytes)
+2025-11-21 07:59:37,277 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:37,565 Loaded data file: sample_data.txt (1170 bytes)
+2025-11-21 07:59:37,567 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
+2025-11-21 07:59:37,763 Loaded data file: sample_data.txt (1170 bytes)
+2025-11-21 07:59:37,764 Failed to load policy file: while scanning a simple key
+  in "sample_policy.yaml", line 19, column 1
+could not find expected ':'
+  in "sample_policy.yaml", line 21, column 1
